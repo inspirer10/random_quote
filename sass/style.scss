@@ -38,6 +38,7 @@ h1 {
     font-weight: bold;
     min-width: 250px;
     transition: ease-in-out .3s;
+    outline: 0;
 
     &:hover {
         color: rgb(34, 125, 194);
