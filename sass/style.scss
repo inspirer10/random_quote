@@ -1,0 +1,63 @@
+body {
+    background-color: #54ACEE;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 3px 2px 2px black;
+}
+
+h1 {
+    margin: 4% auto;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+}
+
+.quote {
+    letter-spacing: 2px;
+    font-size: 32px;
+    margin-top: 7%;
+}
+
+.author {
+    letter-spacing: .5px;
+    color: whitesmoke;
+    font-size: 21px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.trigger {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 15px;
+    margin: 5% auto 3%;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    min-width: 250px;
+    transition: ease-in-out .3s;
+
+    &:hover {
+        color: rgb(34, 125, 194);
+        background: white;
+        border: 3px solid rgb(34, 125, 194);
+    }
+}
+
+.tweet {
+    font-weight: bold;
+    font-size: 30px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+    margin: auto;
+    display: table
+}
+
+.icon {
+    padding-right: 15px;
+    color: white;
+}
